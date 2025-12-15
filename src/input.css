@@ -166,5 +166,5 @@ nav .nav-link:focus-visible::after {
 }
 
 .footer-link{
-    @apply text-[20px] underline
+    @apply text-[20px] underline hover:text-[#FBAA06]
 }

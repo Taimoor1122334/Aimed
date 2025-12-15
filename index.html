@@ -150,10 +150,10 @@
  <!-- ------------hero-section--------------------->
 
  <section >
-  <div class="w-full">
+  <div class="w-full py-10 md:py-20 lg:py-30  relative flex justify-center items-center overflow-hidden"
+  style="background-image: url('assets/images/hero-image.png'); background-size: cover; background-position: center;">
 
 
-    <div class="relative h-[400px] sm:h-[450px] md:h-[550px] lg:h-[650px] 2xl:h-[700px] overflow-hidden ">
 
       <!-- Background Video -->
       <!-- <video 
@@ -165,15 +165,13 @@
         <source src="assets/header-vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video> -->
-      <div class="absolute inset-0 w-full h-auto object-cover">
-<img src="assets/images/hero-image.png" alt="hero-image" class="w-full h-full">
-</div>
+    
       <!-- Text on Top of Video -->
          <!-- Black transparent overlay -->
       <div class=" absolute inset-0 bg-black/50"></div>
 
       
-        <div class="absolute inset-0 z-10 flex flex-col justify-center items-center text-center    max-w-[1440px] lg:mx-auto ">
+        <div class="z-10 flex flex-col justify-center items-center text-center    max-w-[1440px] lg:mx-auto py-20">
           <h1 class="max-w-3xl text-white ">
             Making Possibilities Happen in a
 Place That Feels Like <span class="font-[700]">Home</span>
@@ -183,7 +181,7 @@ Place That Feels Like <span class="font-[700]">Home</span>
             <a href="#" class="btn">LEARN MORE</a>
             <a href="#" class="btn">OUR SERVICES</a>
 
-          </div>
+          
         
         </div>
       </div>
@@ -194,6 +192,8 @@ Place That Feels Like <span class="font-[700]">Home</span>
 
   </div>
 </section>
+
+
 
 <!-- ----------support-section----------------->
 
@@ -422,58 +422,76 @@ every role.
  <!-- Footer -->
 <footer class="bg-[#f7f7f7] py-12  ">
   <div class="max-w-[1440px] mx-auto px-4 md:px-6 lg:px-12">
-  <div class="w-full  mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
+  <div class="w-full  mx-auto grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-10">
     
     <!-- Logo & Description -->
     <div class="md:col-span-2 space-y-3">
       <p class="heading ">ABOUT US</p>
-      <p class="footer-text">
+      <p class="footer-text mt-3">
         We believe in a personalized therapeutic approach, addressing the unique needs of everyone in our community. Our goal is to create a safe, caring, and homelike environment. We achieve this by taking the time to understand each participant’s preferences, ensuring our space truly feels like “home.”
       </p>
     </div>
 
     <!-- Quick Links -->
     <div>
-      <p class="heading ">Quick Links</p>
-<ul class="space-y-1 text-sm  text-black">
+      <p class="heading ">QUICK LINKS</p>
+<ul class="space-y-1 text-sm  text-black mt-3">
         <li><a href="index.html" class="footer-link">Home</a></li>
         <li><a href="about.html" class="footer-link">About</a></li>
-        <li><a href="#" class="footer-link">yoam</a></li>
-        <li><a href="#" class="footer-link">Where We Are</a></li>
-        <li><a href="#" class="footer-link">On Demand</a></li>
-        <li><a href="give.html" class="footer-link">Give</a></li>
+        <li><a href="#" class="footer-link">Services</a></li>
+        <li><a href="#" class="footer-link">Jobs</a></li>
+        <li><a href="#" class="footer-link">News & Events</a></li>
+        <li><a href="#" class="footer-link">Contact</a></li>
       </ul>
     </div>
 
-    <!-- Who We Are -->
+    <!-- Services -->
     <div>
-      <p class=" heading">Who We Are</p>
-      <ul class="space-y-1 text-sm   text-black">
-        <li><a href="#" class="footer-link">Our History</a></li>
-        <li><a href="#" class="footer-link">Our Affiliation</a></li>
-        <li><a href="#" class="footer-link">COGIC</a></li>
-        <li><a href="#" class="footer-link">Statement of Faith</a></li>
-        <li><a href="#" class="footer-link">Executive Team</a></li>
-        <li><a href="#" class="footer-link">Executive Staff</a></li>
+      <p class=" heading">SERVICES</p>
+      <ul class="space-y-1 text-sm   text-black mt-3">
+        <li><a href="#" class="footer-link">24-hour Residential Services</a></li>
+        <li><a href="#" class="footer-link">Supportive Living Services</a></li>
+        <li><a href="#" class="footer-link">Clinical Support Services</a></li>
+        <li><a href="#" class="footer-link">Home and Community Services</a></li>
+        <li><a href="#" class="footer-link">Community Support Services</a></li>
+        <li><a href="#" class="footer-link">AIMED to Independence (CYF)</a></li>
       </ul>
     </div>
 
     <!-- Contact Info -->
     <div>
-      <p class=" heading">Contact Us</p>
-      <p class=" footer-text">
-        <span class="font-bold heading">COGIC World Missions</span><br>
-        938 Mason Street<br>
-        Memphis, TN 38126<br><br>
-        Tel: (901) 947-9316<br>
-        Cogicworldmissions@cogic.org
+      <p class=" heading">CONTACT US</p>
+      <p class=" footer-text mt-3">
+        <span class="font-bold ">Pittsburg</span><br>
+     <p>  3301 McCrady Road
+Pittsburgh, PA  15235</p>
+<p>Tel: 412-704-5067</p>
+
+      </p>
+
+      <p class=" footer-text mt-3 ">
+        <span class="font-bold ">York</span><br>
+     <p> 2793 S. Queen Street
+York, PA  17313
+</p>
+<p>Tel: 717-356-2410</p>
+
       </p>
     </div>
   </div>
+  <div>
+    <img src="assets/images/Image 1.svg" alt="Aimed logo">
+  </div>
+  <div class="flex justify-between mt-10">
+    <div class="[&_a]:underline flex flex-col ">
+        <a href="#" class="hover:text-[#FBAA06]">Privacy Policy</a>
+        <a href="#" class="hover:text-[#FBAA06]">Terms of Use</a>
+    </div>
 
   <!-- Copyright -->
   <div class="copyright-text  ">
-    Copyright © 2024 TechChurch.io. All Rights Reserved.
+   Copyright © 2026 TechChurch.io. All Rights Reserved.
+  </div>
   </div>
   </div>
 </footer>
