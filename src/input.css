@@ -3,6 +3,10 @@
 html{
   scroll-behavior: smooth;
 }
+#about-aimed,
+#word-from-ceo {
+  scroll-margin-top: 80px; 
+}
 
 /* Regular */
 body {
