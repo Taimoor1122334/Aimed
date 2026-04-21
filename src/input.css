@@ -25,7 +25,7 @@ body {
 /* Medium */
 .medium-text {
   font-family: "brandon-grotesque", sans-serif;
-  font-weight: 500;
+  font-weight: 500;;
 }
 
 /* Bold */
@@ -89,11 +89,14 @@ body {
   font-weight: 700;
         @apply text-[13px] md:text-[15px]  bg-[#FBAA06] py-3 px-6 rounded-lg text-white hover:bg-[#DF6600]
     }
-    .white-btn{
-         font-family: "brandon-grotesque", sans-serif;
-  font-weight: 700;
-        @apply text-[13px] md:text-[15px] bg-white hover:bg-[#e59a05] hover:text-white py-3 px-6 inline-block  rounded-lg;
-    }
+   .white-btn {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    @apply text-[13px] md:text-[15px] bg-white hover:bg-[#e59a05] hover:text-white py-3 px-6 rounded-lg;
+}
     .large-btn{
       
          font-family: "brandon-grotesque", sans-serif;
