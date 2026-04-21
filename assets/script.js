@@ -1,3 +1,18 @@
+ // Ensure only one details element is open at a time (manual toggle)
+ const details = document.querySelectorAll("details");
+
+  details.forEach((targetDetail) => {
+    targetDetail.addEventListener("toggle", () => {
+      if (targetDetail.open) {
+        details.forEach((detail) => {
+          if (detail !== targetDetail) {
+            detail.open = false;
+          }
+        });
+      }
+    });
+  });
+
 // Mobile menu toggle (global for inline onclick)
 function toggleMenu() {
   const mobileMenu = document.getElementById('mobileMenu');
