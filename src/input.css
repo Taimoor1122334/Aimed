@@ -74,7 +74,7 @@ body {
         /* @apply text-[22px] */
     }
     label{
-      @apply flex items-center gap-3 text-md cursor-pointer text-gray-500
+      @apply flex flex-row   gap-3  cursor-pointer text-gray-500
     }
     .checkbox{
       @apply w-6 h-6 border-gray-400 accent-gray-900 cursor-pointer
